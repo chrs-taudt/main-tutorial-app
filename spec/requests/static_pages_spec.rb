@@ -21,7 +21,7 @@ describe "Da About page" do
 
     it "should have the content 'About'" do
       visit '/static_pages/about'
-      expect(page).to have_content('About page')
+      expect(page).to have_content('About')
     end
   end
 
